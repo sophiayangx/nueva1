@@ -1,0 +1,42 @@
+#title {
+  color: blue;
+  text-align: center;
+}
+
+#turtle {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+
+#turtle-cage {
+  height: 400px;
+  width: 100%;
+  position: relative;
+  border: 2px solid black;
+  background-image: url(http://www.wallhd4.com/wp-content/uploads/2016/02/coral-under-the-sea-10.jpeg);
+  background-size: cover;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
